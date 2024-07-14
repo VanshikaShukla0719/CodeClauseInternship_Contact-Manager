@@ -99,7 +99,7 @@ class _HomepageState extends State<Homepage> {
                           nameController.text = " ";
                           contactController.text = " ";
                           contacts[selectedIndex].name = name;
-                          contacts[selectedIndex].contact = name;
+                          contacts[selectedIndex].contact = contact;
 
                           selectedIndex = -1;
                           // contacts.update(Contact(name: name, contact: contact));
